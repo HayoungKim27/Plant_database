@@ -12,6 +12,7 @@ _PlantsMaps_ and _Dave’s Garden_ are the source of my databases, and I used py
 ## Guideline
 All the necessary R scripts are in the Rscript folder (Rscript/).
 You can download both R scripts: server.R (Rscript/serverR) and ui.R (Rscript/ui.R).
+The required .csv files for running those R scripts are in the data_csv folder (data_csv/).
 If you click 'Run App' in R studio, you can see R shiny interface which is the ultimate goal of this project.
 
 ## mySQL
