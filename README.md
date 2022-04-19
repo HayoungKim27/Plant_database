@@ -13,35 +13,37 @@ _PlantsMaps_ and _Dave’s Garden_ are the source of my databases, and I used py
 ### ER diagram
 To show my database structure clear, I plot ER diagram using mySQL workbench. I have three datasets, hardiness zone of the _hardiness_belgium table_ is connected to that of _general_edible table_. And general_id of _general_edible table_ is connected to that of _detailed_edible table_.
 
-![image](https://github.com/HayoungKim27/Plant_database/blob/main/Images/ERdiagram.png)
+<img src = "https://github.com/HayoungKim27/Plant_database/blob/main/Images/ERdiagram.png" width="70%" height="70%">
 
 **Remark:**
 There were some issues here. The primary key and foreign key could be used to connect the columns of each dataset under the plant name, but it was almost impossible to create a primary and foreign key with string. I googled it why, and it seems that there were limitations such as space included in string being transformed to byte as well. So I arbitrarily set an id for the plants that two tables have. And the plants that are not on the general table are removed from the detailed table.
 
 ### Used queries
-![image](https://github.com/HayoungKim27/Plant_database/blob/main/Images/queries.png)
+<img src = "https://github.com/HayoungKim27/Plant_database/blob/main/Images/queries.png" width="50%" height="50%">
 
 From these queries, the number of entries in each table can be seen.
 
-![image](https://github.com/HayoungKim27/Plant_database/blob/main/Images/num_of_entries.png)
+<img src = "https://github.com/HayoungKim27/Plant_database/blob/main/Images/num_of_entries.png" width="15%" height="15%">
 
 This is the query showing the table hardiness_belgium limited to 10 rows.
 
-![image](https://github.com/HayoungKim27/Plant_database/blob/main/Images/hardiness_belgium_query.png)
+<img src = "https://github.com/HayoungKim27/Plant_database/blob/main/Images/hardiness_belgium_query.png" width="35%" height="35%">
+
 
 And this is the result, _hardiness_belgium table_.
 
-![image](https://github.com/HayoungKim27/Plant_database/blob/main/Images/hardiness_belgium_table.png)
+<img src = "https://github.com/HayoungKim27/Plant_database/blob/main/Images/hardiness_belgium_table.png" width="32%" height="32%">
 
 Same for the table _general_edible table_, and _detail_edible table._
 
-![image](https://github.com/HayoungKim27/Plant_database/blob/main/Images/general_edible_query.png)
+<img src = "https://github.com/HayoungKim27/Plant_database/blob/main/Images/general_edible_query.png" width="35%" height="35%">
 
-![image](https://github.com/HayoungKim27/Plant_database/blob/main/Images/general_edible_table.png)
+<img src = "https://github.com/HayoungKim27/Plant_database/blob/main/Images/general_edible_table.png" width="80%" height="80%">
 
-![image](https://github.com/HayoungKim27/Plant_database/blob/main/Images/detail_edible_query.png)
+<img src = "https://github.com/HayoungKim27/Plant_database/blob/main/Images/detail_edibe_query.png" width="35%" height="35%">
 
-![image](https://github.com/HayoungKim27/Plant_database/blob/main/Images/detail_edible_table.png)
+<img src = "https://github.com/HayoungKim27/Plant_database/blob/main/Images/detail_edibe_table.png">
+
 
 ## Web interface made by R Shiny app
 This is the web interface I made by R Shiny after connecting the database from mySQL workbench.
