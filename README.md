@@ -12,7 +12,7 @@ _PlantsMaps_ and _Dave’s Garden_ are the source of my databases, and I used py
 ## Guideline
 All the necessary R scripts are in the Rscript folder (Rscript/).
 You can download both R scripts: server.R (Rscript/serverR) and ui.R (Rscript/ui.R).
-If you run ui.R, you can see R shiny interface which is the ultimate goal of this project.
+If you click 'Run App' in R studio, you can see R shiny interface which is the ultimate goal of this project.
 
 ## mySQL
 ### ER diagram
@@ -53,6 +53,8 @@ Same for the table _general_edible table_, and _detail_edible table._
 
 ## Web interface made by R Shiny app
 This is the web interface I made by R Shiny after connecting the database from mySQL workbench.
+
+<img src = "https://github.com/HayoungKim27/Plant_database/blob/main/Images/Rshiny.png">
 
 ### 1st tab: Which edible fruits or nuts to grow?
 There are three steps.
